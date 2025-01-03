@@ -1,0 +1,38 @@
+# NotionAPIのドキュメント自動生成のrequestのフォーマット
+## JSON のフォーマット
+```json
+{
+  "parent": { "database_id": {{ database_id }} },
+  "properties": {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": {{ content}}
+          }
+        }
+      ]
+    },
+    "Tags": {
+      "multi_select": [
+        {
+          "name": {{ tags }}
+        }
+      ]
+    },
+    "method": {
+      "multi_select": [
+        {
+          "name": {{ method }}
+        }
+      ]
+    }
+  }
+}
+```
+
+### 条件
+- {{ content }} はページのタイトル
+- {{ tags }} はページのタグ
+- {{ method }} はページのメソッド
+- それぞれの変数に定義したものを入れて./api.jsonを作成する
