@@ -1,7 +1,7 @@
 # NotionAPIのドキュメント自動生成のrequestのフォーマット
 ## JSON のフォーマット
 ```json
-{
+[{
   "parent": { "database_id": {{ database_id }} },
   "properties": {
     "Name": {
@@ -28,7 +28,7 @@
       ]
     }
   }
-}
+}]
 ```
 
 ### 条件

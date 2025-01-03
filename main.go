@@ -90,44 +90,50 @@ func main() {
 			}
 			defer file.Close()
 
-			var data map[string]interface{}
+			var data []map[string]interface{}
 			decoder := json.NewDecoder(file)
 			if err := decoder.Decode(&data); err != nil {
 				fmt.Println("Error decoding JSON:", err)
 				return
 			}
 
-			url := "https://api.notion.com/v1/pages"
 			NOTION_ACCESS_TOKEN := os.Getenv("NOTION_ACCESS_TOKEN")
 
-			jsonData, err := json.Marshal(data)
-			if err != nil {
-				fmt.Println("Error marshalling JSON:", err)
-				return
+			for _, pageData := range data {
+				url := "https://api.notion.com/v1/pages"
+
+				jsonData, err := json.Marshal(pageData)
+				if err != nil {
+					fmt.Println("Error marshalling JSON:", err)
+					continue
+				}
+
+				req, err := http.NewRequest("POST", url, bytes.NewBuffer(jsonData))
+				if err != nil {
+					fmt.Println("Error creating request:", err)
+					continue
+				}
+
+				req.Header.Add("Content-Type", "application/json")
+				req.Header.Add("Notion-Version", "2022-06-28")
+				req.Header.Add("Authorization", "Bearer "+NOTION_ACCESS_TOKEN)
+
+				res, err := http.DefaultClient.Do(req)
+				if err != nil {
+					fmt.Println("Error making request:", err)
+					continue
+				}
+				defer res.Body.Close()
+
+				body, err := io.ReadAll(res.Body)
+				if err != nil {
+					fmt.Println("Error reading response:", err)
+					continue
+				}
+
+				fmt.Println("Response from Notion API:", string(body))
 			}
 
-			req, err := http.NewRequest("POST", url, bytes.NewBuffer(jsonData))
-			if err != nil {
-				fmt.Println("Error creating request:", err)
-				return
-			}
-
-			req.Header.Add("Content-Type", "application/json")
-			req.Header.Add("Notion-Version", "2022-06-28")
-			req.Header.Add("Authorization", "Bearer "+NOTION_ACCESS_TOKEN)
-
-			res, err := http.DefaultClient.Do(req)
-			if err != nil {
-				fmt.Println("Error making request:", err)
-				return
-			}
-			defer res.Body.Close()
-
-			body, err := io.ReadAll(res.Body)
-			if err != nil {
-				fmt.Println("Error reading response:", err)
-				return
-			}
 			// 処理が完了したらapi.jsonを空にする
 			file, err = os.Create("api.json")
 			if err != nil {
@@ -135,8 +141,6 @@ func main() {
 				return
 			}
 			defer file.Close()
-
-			fmt.Println("Response from Notion API:", string(body))
 		}},
 	)
 
