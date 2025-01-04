@@ -144,5 +144,7 @@ func main() {
 		}},
 	)
 
-	c.Execute()
+	if err := c.Execute(); err != nil {
+		os.Exit(1)
+	}
 }
