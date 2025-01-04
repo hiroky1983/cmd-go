@@ -1,1 +1,56 @@
-This is a sample text.
+{{ endpoint }} = /admin.v1.AppointmentService/ListAppointments
+{{ summary }} = シフト一覧
+
+{{ endpoint }} = /admin.v1.AppointmentService/CreateAppointment
+{{ summary }} = シフト作成
+
+{{ endpoint }} = /admin.v1.AppointmentService/UpdateAppointment
+{{ summary }} = シフト更新
+
+{{ endpoint }} = /admin.v1.AppointmentService/DeleteAppointment
+{{ summary }} = シフト削除
+
+{{ endpoint }} = /admin.v1.UserService/GetUser
+{{ summary }} = ユーザー情報取得
+
+{{ endpoint }} = /admin.v1.UserService/UpdateProfile
+{{ summary }} = プロフィール更新
+
+{{ endpoint }} = /admin.v1.UserService/ListUsers
+{{ summary }} = ユーザー一覧取得
+
+{{ endpoint }} = /admin.v1.CustomerService/GetCustomer
+{{ summary }} = 顧客情報取得
+
+{{ endpoint }} = /admin.v1.CustomerService/UpdateCustomer
+{{ summary }} = 顧客情報更新
+
+{{ endpoint }} = /admin.v1.CustomerService/ListCustomers
+{{ summary }} = 顧客一覧取得
+
+{{ endpoint }} = /admin.v1.MedicineService/GetMedicine
+{{ summary }} = 薬情報取得
+
+{{ endpoint }} = /admin.v1.MedicineService/UpdateMedicine
+{{ summary }} = 薬情報更新
+
+{{ endpoint }} = /admin.v1.PrescriptionService/GetPrescriptionDetail
+{{ summary }} = 処方箋詳細取得
+
+{{ endpoint }} = /admin.v1.PrescriptionService/UpdatePrescription
+{{ summary }} = 処方箋更新
+
+{{ endpoint }} = /admin.v1.QuestionnaireService/GetQuestionnaire
+{{ summary }} = アンケート取得
+
+{{ endpoint }} = /admin.v1.QuestionnaireService/UpdateQuestionnaire
+{{ summary }} = アンケート更新
+
+{{ endpoint }} = /admin.v1.SessionService/CreateSession
+{{ summary }} = セッション作成
+
+{{ endpoint }} = /admin.v1.ShipmentService/GetShipment
+{{ summary }} = 発送詳細取得
+
+{{ endpoint }} = /admin.v1.ShipmentService/UpdateShipment
+{{ summary }} = 発送情報更新

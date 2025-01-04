@@ -4,26 +4,21 @@
 [{
   "parent": { "database_id": {{ database_id }} },
   "properties": {
-    "Name": {
+    "エンドポイント": {
       "title": [
         {
           "text": {
-            "content": {{ content}}
+            "content": {{ endpoint }}
           }
         }
       ]
     },
-    "Tags": {
-      "multi_select": [
+    "概要": {
+      "rich_text": [
         {
-          "name": {{ tags }}
-        }
-      ]
-    },
-    "method": {
-      "multi_select": [
-        {
-          "name": {{ method }}
+          "text": {
+            "content": {{ summary }}
+          }
         }
       ]
     }
@@ -32,7 +27,6 @@
 ```
 
 ### 条件
-- {{ content }} はページのタイトル
-- {{ tags }} はページのタグ
-- {{ method }} はページのメソッド
+- {{ endpoint }} はページのタイトル
+- {{ summary }} はページの概要
 - それぞれの変数に定義したものを入れて./api.jsonを作成する
