@@ -1,12 +1,15 @@
 package main
 
 import (
+	"bufio"
 	"bytes"
 	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
 	"os"
+	"regexp"
+	"strings"
 
 	"github.com/joho/godotenv"
 	"github.com/spf13/cobra"
@@ -22,8 +25,11 @@ func main() {
 
 	c := &cobra.Command{Use: "api [command]"}
 
+	databaseID := os.Getenv("NOTION_DATABASE_ID")
+	NOTION_ACCESS_TOKEN := os.Getenv("NOTION_ACCESS_TOKEN")
+
 	c.AddCommand(
-		&cobra.Command{Use: "start", Run: func(cmd *cobra.Command, args []string) {
+		&cobra.Command{Use: "start", Short: "example.txtを作成するコマンド", Run: func(cmd *cobra.Command, args []string) {
 			fmt.Println("Starting API")
 
 			file, err := os.Create("example.txt")
@@ -41,7 +47,7 @@ func main() {
 
 			fmt.Println("File created successfully")
 		}},
-		&cobra.Command{Use: "create-json", Run: func(cmd *cobra.Command, args []string) {
+		&cobra.Command{Use: "create-json", Short: "空のapi.jsonを作成するコマンド", Run: func(cmd *cobra.Command, args []string) {
 			fmt.Println("Creating empty JSON file")
 
 			file, err := os.Create("api.json")
@@ -59,10 +65,9 @@ func main() {
 
 			fmt.Println("Empty JSON file created successfully")
 		}},
-		&cobra.Command{Use: "get", Run: func(cmd *cobra.Command, args []string) {
+		&cobra.Command{Use: "get", Short: "Notionのデータベースを取得するコマンド", Run: func(cmd *cobra.Command, args []string) {
 			fmt.Println("Stopping API")
 
-			databaseID := os.Getenv("NOTION_DATABASE_ID")
 			url := fmt.Sprintf("https://api.notion.com/v1/databases/%s", databaseID)
 
 			req, _ := http.NewRequest("GET", url, nil)
@@ -80,7 +85,7 @@ func main() {
 
 			fmt.Println(string(body))
 		}},
-		&cobra.Command{Use: "create-page", Run: func(cmd *cobra.Command, args []string) {
+		&cobra.Command{Use: "create-page", Short: "api.jsonからNotionのページを作成するコマンド", Run: func(cmd *cobra.Command, args []string) {
 			fmt.Println("Creating page from api.json")
 
 			file, err := os.Open("api.json")
@@ -96,8 +101,6 @@ func main() {
 				fmt.Println("Error decoding JSON:", err)
 				return
 			}
-
-			NOTION_ACCESS_TOKEN := os.Getenv("NOTION_ACCESS_TOKEN")
 
 			for _, pageData := range data {
 				url := "https://api.notion.com/v1/pages"
@@ -135,12 +138,101 @@ func main() {
 			}
 
 			// 処理が完了したらapi.jsonを空にする
-			file, err = os.Create("api.json")
+			// file, err = os.Create("api.json")
+			// if err != nil {
+			// 	fmt.Println("Error creating JSON file:", err)
+			// 	return
+			// }
+			// defer file.Close()
+		}},
+		&cobra.Command{Use: "gen-json", Short: "index.mdから直接api.jsonを作成するコマンド", Run: func(cmd *cobra.Command, args []string) {
+			fmt.Println("Generating api.json directly from index.md")
+
+			// index.mdファイルを開く
+			file, err := os.Open("index.md")
 			if err != nil {
-				fmt.Println("Error creating JSON file:", err)
+				fmt.Println("Error opening index.md:", err)
 				return
 			}
 			defer file.Close()
+
+			var entries []map[string]interface{}
+			scanner := bufio.NewScanner(file)
+			var crmName, serviceName, methodName, description string
+			servicePattern := regexp.MustCompile(`### (\w+Service)`)
+				methodPattern := regexp.MustCompile(`\| (\w+) \| \[.*\]\(#.*\) \| \[.*\]\(#.*\) \| (.*) \|`)
+
+			for scanner.Scan() {
+				line := scanner.Text()
+
+				// CRM名を取得
+				if strings.Contains(line, "admin/v1") {
+					crmName = "admin"
+				} else if strings.Contains(line, "operation/v1") {
+					crmName = "operation"
+				} else if strings.Contains(line, "customer/v1") {
+					crmName = "customer"
+				}
+
+				// Service名を取得
+				if matches := servicePattern.FindStringSubmatch(line); matches != nil {
+					serviceName = matches[1]
+				}
+
+				// Method名とDescriptionを取得
+				if matches := methodPattern.FindStringSubmatch(line); matches != nil {
+					methodName = matches[1]
+					description = matches[2]
+
+					// JSONエントリを作成
+					entry := map[string]interface{}{
+						"parent": map[string]string{
+							"database_id": os.Getenv("NOTION_DATABASE_ID"),
+						},
+						"properties": map[string]interface{}{
+							"エンドポイント": map[string]interface{}{
+								"title": []map[string]interface{}{
+									{
+										"text": map[string]string{
+											"content": fmt.Sprintf("/%s.v1.%s/%s", crmName, serviceName, methodName),
+										},
+									},
+								},
+							},
+							"概要": map[string]interface{}{
+								"rich_text": []map[string]interface{}{
+									{
+										"text": map[string]string{
+											"content": description,
+										},
+									},
+								},
+							},
+						},
+					}
+
+					entries = append(entries, entry)
+				}
+			}
+
+			if err := scanner.Err(); err != nil {
+				fmt.Println("Error reading index.md:", err)
+				return
+			}
+
+			// api.jsonファイルを作成
+			apiFile, err := os.Create("api.json")
+			if err != nil {
+				fmt.Println("Error creating api.json:", err)
+				return
+			}
+			defer apiFile.Close()
+
+			encoder := json.NewEncoder(apiFile)
+			encoder.SetIndent("", "  ")
+			if err := encoder.Encode(entries); err != nil {
+				fmt.Println("Error writing to api.json:", err)
+			}
 		}},
 	)
 

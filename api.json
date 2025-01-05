@@ -1,0 +1,5727 @@
+[
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.AppointmentService/CreateAppointment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診察の予約を作成する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.AppointmentService/CancelAppointment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診察の予約をキャンセルする"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.AppointmentService/GetExamination"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診療結果"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.AppointmentService/ListAvailable"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診療予約可能な日時を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.AppointmentService/ListAvailableDate"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診療予約可能な日にちを取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.AppointmentService/GetExaminationRecords"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診療の録画"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.AppointmentService/ListAppointments"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約一覧取得"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/ListCustomers"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客一覧取得"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/GetCustomer"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客詳細取得"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/UpdateCustomer"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客情報更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/ListObservations"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の患部画像一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/GetLatestObservation"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の直近日の患部画像セット"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/ListExaminations"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の診療結果一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/ListExaminationsWithRecord"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の診療結果と録画の保持情報一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/ListExaminationAssistances"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の診察補助履歴一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/ListChangeLogs"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の変更履歴一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/ListHealthCheckups"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の健診結果一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/ListBloodCollections"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の採血一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/ListMessageHistories"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客のお知らせ履歴一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/ListPrescriptions"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の処方一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/CancelPrescription"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "出荷をキャンセルする"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/CreateObservation"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の患部画像登録"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/CreateHealthCheckup"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の健診画像登録"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/CreateBloodCollection"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の採血画像登録"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/ListCounselings"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客のカウンセリング履歴一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/SendNotification"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客にメッセージを送信する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/CreateCustomerMemo"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の申し送り事項を作成"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/UpdateCustomerMemo"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の申し送り事項を更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/DeleteCustomerMemo"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の申し送り事項を削除"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/ListCustomerMemos"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の申し送り事項一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/DeleteObservation"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の患部画像削除"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/DeleteHealthCheckup"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の健診画像削除"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/DeleteBloodCollection"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の採血画像削除"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/ListCustomerComments"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客のコメント一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/CreateCustomerComment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客のコメントを作成"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/UpdateCustomerComment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客のコメントを更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/DeleteCustomerComment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客のコメントを削除"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.CustomerService/ListVisitedExaminationCategories"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "appointment_statusがdone,reserved,progressの診療一覧取得"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.DashboardService/GetDashboard"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ImageService/CreatePutSignedURL"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.MedicineService/ListMedicines"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "薬一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.MedicineService/GetMedicine"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "薬詳細"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.MedicineService/CreateMedicine"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "薬登録"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.MedicineService/UpdateMedicine"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "薬更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.PrescriptionService/GetPrescriptionDetail"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "処方の詳細情報"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.PrescriptionService/GetLatestNextPrescriptionAutoPayment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "最新の購入済み処方箋の自動決済利用有無"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.PrescriptionService/UpdateNextPrescriptionAutoPayment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "購入前処方箋の自動決済利用設定更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.QuestionnaireService/ListQuestionnaires"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "問診一覧取得"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.QuestionnaireService/GetQuestionnaire"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "問診取得"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.QuestionnaireService/UpdateQuestionnaire"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "問診更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.SessionService/CreateSession"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ShiftService/ListShifts"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "シフト一覧取得"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ShiftService/CreateShift"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "シフト作成"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ShiftService/UpdateShift"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "シフト更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ShiftService/DeleteShift"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "シフト削除"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ShiftService/BatchUpdateShift"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "シフト一括更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ShiftService/UploadFile"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "シフトCSVアップロード"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ShipmentService/ListShipments"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "発送一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ShipmentService/ListCustomerShipments"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客ごとの発送一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ShipmentService/GetShipment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "発送詳細"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ShipmentService/UpdateShipment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "発送情報更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ShipmentService/BatchUpdateShipments"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "csvファイルで発送アップデート"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ShipmentService/UpdateShipmentAddress"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "発送先情報更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ShipmentService/UpdateShipmentPackage"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "発送パッケージ情報更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.ShipmentService/DownloadShippingOrdersCSV"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "発送伝票CSVダウンロード"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.SystemMessageService/ListSystemMessageTags"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "システム通知タグ一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.SystemMessageService/ListSystemMessages"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "システム通知一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.SystemMessageService/GetSystemMessage"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "システム通知詳細"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.UserService/ListUsers"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "ユーザー一覧取得"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.UserService/GetUser"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "ユーザー詳細取得"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.UserService/CreateUser"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "ユーザー作成"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.UserService/UpdateUser"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "ユーザー更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.UserService/BatchCreateUser"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "ユーザー一括作成"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.UserService/BatchUpdateUser"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "ユーザー一括更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/admin.v1.UserService/GetMeUser"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "CurrentUser取得"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.AppointmentService/ListAvailable"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診療予約可能な日時を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.AppointmentService/GetLastAppointment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "前回の診察の予約を取得する(deprecated) 存在しない場合はNOT FOUNDを返す"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.AppointmentService/ListActionRequiredAppointments"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客のアクションが必要な予約一覧を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.AppointmentService/GetNextAppointment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "次回の診察の予約を取得する 存在しない場合はNOT FOUNDを返す"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.AppointmentService/ListAppointments"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診察履歴を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.AppointmentService/CreateAppointment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診察の予約を作成する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.AppointmentService/CancelAppointment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "次回の診察の予約をキャンセルする"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.AppointmentService/GetAppointment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約の詳細を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.AppointmentService/GetAgoraRtcToken"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約のAgoraトークン取得"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.AppointmentService/AssessAppointment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診療の満足度をつける"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.AppointmentService/ListReservedAppointments"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約中の診療一覧を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.AppointmentService/UpdateAgoraVideoCallStatusAsCustomerWaiting"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約のAgoraVideoCallステータスを Customer Waiting にする"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.AppointmentService/GetAgoraVideoCallByAppointmentID"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約のAgoraVideoCallを取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.BloodCollectionService/CreateBloodCollection"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.CustomerService/SendResetPasswordNotification"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.CustomerService/ResetPassword"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.CustomerService/GetMe"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "自分の情報を取得する 存在しないユーザーだった場合、エラーは返さず、flagを立てる"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.CustomerService/UpdateMe"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "自分の情報を更新する 現在の予約フローだと、カナ氏名や性別はSignUpと別で、問診票入力時に登録することになっているので、それらの値はこのAPIで更新する. ただし、すでに登録されている場合、更新されない"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.CustomerService/UpdateAddress"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.HealthCheckupService/CreateHealthCheckup"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ImageService/CreatePutSignedURL"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.MedicalQuestionnaireService/GetQuestionnaireForm"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "問診票のマスター情報を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.MedicalQuestionnaireService/CreateQuestionnaireAnswer"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "問診票に回答する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.MedicalQuestionnaireService/GetLatestQuestionnaireAnswer"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.MedicalQuestionnaireService/GetLatestQuestionnaireAnswerForSpecificQuestion"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ObservationService/CreateObservation"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.OrderService/GetOrder"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PaymentService/GetInPaymentProgressPrescription"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "決済進行中の処方箋の支払いがあれば、情報を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PaymentService/PayForPrescription"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "処方箋の支払いを行う(クレジットカード)"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PaymentService/PayForPrescriptionByPostpay"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "処方箋の支払いを行う(後払い)"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PaymentService/PayForPrescriptionByBankTransfer"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "処方箋の支払いを行う(銀行振込)"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PaymentService/PayForPrescriptionByAmazonpay"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "処方箋の支払いを行う(Amazon Pay)"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PaymentService/ListCreditCards"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "登録しているクレジットカード情報を取得する 全て返却する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PaymentService/GetCreditCard"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "登録しているクレジットカードの詳細"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PaymentService/CreateCreditCard"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "クレジットカードを登録する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PaymentService/DeleteCreditCard"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "クレジットカードを削除する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PaymentService/GetOrderReceipt"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "領収書情報を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PaymentService/BeginRegisteringAmazonpay"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Amazon Payの決済登録を始める"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PaymentService/ApproveRegisteringAmazonpay"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Amazon Payの決済登録を承認する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PaymentService/CompleteRegisteringAmazonpay"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Amazon Payの決済登録を完了する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PaymentService/GetAmazonpayStatus"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "登録されているAmazon Payの情報を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PointService/GetNotAvailablePoint"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "次回獲得予定日,獲得予定ポイント合計を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PointService/ListPoints"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "獲得ポイント履歴,使用ポイント履歴,使用可能ポイント額を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PointService/UpdateAutoUsePoint"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "購入時のポイント利用デフォルト設定を更新する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PrescriptionService/GetPrescription"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "処方箋の詳細情報を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PrescriptionService/ListPrescriptionsByAppointmentID"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診察予約に基づく処方箋を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.PrescriptionService/GetShipmentByPrescriptionID"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "処方箋に基づく出荷情報を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.SessionService/CreateSession"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.SessionService/GetConnectID"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.SessionService/ConnectID"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.SessionService/CreateSessionWithEmail"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/GetShipment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "出荷情報を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/GetNextShipment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "次回の出荷情報を取得する 存在しない場合はNOT FOUNDを返す"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/ListShipments"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "出荷一覧を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/CancelShipment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "出荷をキャンセルする"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/GetShipmentAddress"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "配送先住所を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/CreateShipmentAddress"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "配送先住所を登録する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/UpdateShipmentAddress"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "配送先住所を更新する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/UpdateShipmentDate"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "配送日時の変更"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/GetCancellationInfo"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "キャンセル画面の情報を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/GetLastShipmentDate"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "最終配送日を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/CreateConsideringOtherService"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "他サービス利用検討質問の一時保存"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/CreateCancelAction"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "配送停止関連のページに置かれたボタンのアクション情報を登録する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/CreateCancelShipmentReasonDetails"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "配送停止の理由を登録する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/CreateCancelShipmentReasons"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/ListConsideringServices"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "他サービス利用検討質問の一時保存データ取得API"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/CancelShipmentWithPrescriptionReason"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "処方キャンセル理由の登録と配送停止の場合は配送停止処理を行う"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/ListShipmentCancelReasonOptions"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "チェックボックスの選択内容取得"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.ShipmentService/CreateOtherServiceReasons"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "他サービス利用検討質問の回答を保存する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.SurveyService/GetSurveyForm"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "アンケートのマスター情報を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/customer.v1.SurveyService/CreateSurveyAnswer"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "アンケートに回答する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/GetAppointment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約詳細"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/CreateAppointment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診察の予約を作成する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/CancelAppointment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診察の予約をキャンセルする"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/GetExamination"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診療結果"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/GetMedicalRecord"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約の診療記録"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/CreateMedicalRecord"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診療記録の作成"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/ListPrescriptionsByAppointmentID"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約の処方箋一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/PreCreatePrescription"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "処方箋の仮発行 (金額計算などのため)"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/CreatePrescription"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "処方箋の作成"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/CancelPrescriptions"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "処方箋のキャンセル"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/GetPrescriptionConfig"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "分割調剤の設定を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/CreateConsultation"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約の相談作成"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/GetAgoraRtcToken"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約のAgoraトークン取得"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/UpdateAppointmentStatusAsReady"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約のステータスをreadyに変更"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/UpdateAppointmentStatusAsProgress"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約のステータスをprogressに変更"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/UpdateAppointmentStatusAsDone"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約のステータスをdoneに変更"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/ListAvailable"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診療予約可能な日時を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/ListAvailableDate"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "診療予約可能な日にちを取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/GetAgoraVideoCallByAppointmentID"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約のAgoraVideoCallを取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/UpdateAgoraVideoCallStatusAsUserJoined"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約のAgoraVideoCallステータスを User Joined にする"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/UpdateAgoraVideoCallStatusAsCustomerWaiting"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約のAgoraVideoCallステータスを Customer Waiting にする"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/UpdateAgoraVideoCallStatusAsCustomerJoined"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約のAgoraVideoCallステータスを Customer Joined にする"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/UpdateAgoraVideoCallStatusAsFinished"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "予約のAgoraVideoCallステータスを Finished にする"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.AppointmentService/GetLatestNotPrescribeReasonByAppointmentID"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "処方不可・保留のレコードが存在する場合に最新のレコードを取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/GetCustomer"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客詳細"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/UpdateCustomer"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListObservations"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の患部画像一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/GetLatestObservation"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の直近日の患部画像セット"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListQuestionnaireAnswers"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の問診票一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/GetQuestionnaireAnswer"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の問診票詳細"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/GetLatestQuestionnaireAnswer"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の最新の問診票を検索"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/UpsertQuestionnaireAnswer"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "問診票を更新 or 作成する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListHealthCheckups"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の健診結果一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListExaminations"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の診療結果一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListExaminationAssistances"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の診察補助履歴一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListDirections"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の指示書一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListBloodCollections"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の採血一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListPrescriptions"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の処方一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListBeforePurchasePrescriptions"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の購入前の処方箋一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListMessageHistories"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客のお知らせ履歴一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListChangeLogs"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の変更履歴一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListCounselings"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客のカウンセリング履歴一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListCustomerMemos"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の申し送り事項一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListVisitedExaminationCategories"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "appointment_statusがdone,reserved,progressの診療一覧取得"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/ListCustomerComments"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客のコメント一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/CreateCustomerComment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客のコメントを作成"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/UpdateCustomerComment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客のコメントを更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/DeleteCustomerComment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客のコメントを削除"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.CustomerService/GetIsExaminationCreatable"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "顧客の診療予約の可否を取得する"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.MedicineService/ListAvailableMedicineTags"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "利用可能薬タグ一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.MedicineService/ListMedicines"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "薬一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.MedicineService/ListPrescriptionAlerts"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "処方非推奨のアラート"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.PrescriptionService/GetPrescriptionDetail"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "処方の詳細情報"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ReviewService/ListReviews"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "評価一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ReviewService/GetReviewSummary"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "評価サマリー"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.SessionService/CreateSession"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShiftService/ListShifts"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "シフト一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShiftService/CreateShift"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "シフト作成"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShiftService/UpdateShift"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "シフト更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShiftService/DeleteShift"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "シフト削除"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShiftService/StartAttendance"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "勤怠開始"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShiftService/StartBreak"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "休憩開始"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShiftService/EndAttendance"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "勤怠終了"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShiftService/EndBreak"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "休憩終了"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShiftService/CreateOvertimeReason"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "残業理由作成"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShiftService/ListAttendances"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "勤怠一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShiftService/CurrentAttendances"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "現在の勤務状況"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShipmentService/ListShipments"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "発送一覧"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShipmentService/GetShipment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "発送詳細"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShipmentService/UpdateShipment"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "発送情報更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShipmentService/UpdateShipmentPackage"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "発送パッケージ情報更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShipmentService/UpdateShipmentAddress"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "発送先情報更新"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShipmentService/DownloadShippingOrdersCSV"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "発送伝票CSVダウンロード"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShipmentService/CreateShippingSlipsCSVSignedURL"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "発送伝票CSVアップロード用の署名付きURLを生成"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShipmentService/UploadShippingSlipsCSV"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "発送伝票CSVアップロード"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShipmentService/DownloadCertificates"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "TODO"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShipmentService/DownloadMedicineNotebookSticker"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "お薬手帳用シールダウンロード"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.ShipmentService/CrateOrderRequestForm"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "TODO"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.UserService/GetUser"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.UserService/UpdateProfile"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.UserService/UpdateAvailableExaminations"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.UserService/ListAppointments"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parent": {
+      "database_id": "08d6208a-be8e-4c89-b570-7a5f0f11bc4e"
+    },
+    "properties": {
+      "エンドポイント": {
+        "title": [
+          {
+            "text": {
+              "content": "/operation.v1.UserService/ListCustomers"
+            }
+          }
+        ]
+      },
+      "概要": {
+        "rich_text": [
+          {
+            "text": {
+              "content": ""
+            }
+          }
+        ]
+      }
+    }
+  }
+]

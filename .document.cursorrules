@@ -1,23 +1,25 @@
-# ドキュメントのフォーマット作成
-## 読み込んだindex.mdの内容から以下のルールで変数を作ってください
-
+ドキュメントのフォーマット作成
+読み込んだ index.md の内容から以下のルールで変数を作成し、必ず example.txt に出力してください。
 1. エンドポイントのパスを作成する
 ルール
 エンドポイントは以下のルールで作成してください。
-```
+
 /{{crm_name}}.v1.{{service_name}}/{{method_name}}
-```
-
-{{crm_name}}はcrmの名前(admin, operation, customerのいずれか)
-{{service_name}}は〇〇Serviceと名前がついているもの
-{{method_name}}はservice_nameのメソッド名
-
-以上のルールをもとにエンドポイントを作成し、example.txtに以下のルールで出力してください。
+{{crm_name}}: CRMの名前 (admin, operation, customer のいずれか)
+{{service_name}}: 〇〇Service と名前がついているもの
+{{method_name}}: service_name のメソッド名
+出力形式
+以下の形式で、必ず example.txt に出力してください:
 
 {{ endpoint }} = /{{crm_name}}.v1.{{service_name}}/{{method_name}}
-
 2. 概要を入力する
 ルール
-1の〇〇serviceのテーブルのdiscriptionを読み込んで、example.txtの{{summary}}に入力してください。
+1で作成した 〇〇Service のテーブルの description を読み込んで、必ず example.txt に以下の形式で出力してください:
 
-{{summary}} = 〇〇serviceのテーブルのdiscription
+
+{{summary}} = 〇〇Service のテーブルの description
+出力例 (example.txt の内容)
+
+{{ endpoint }} = /admin.v1.UserService/GetUser
+{{summary}} = This service provides user management functionalities.
+禁止: 出力は example.txt に直接書き込む 必要があります。その他のファイルには書き込まないでください。
