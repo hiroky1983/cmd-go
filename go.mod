@@ -3,6 +3,7 @@ module cmdgo
 go 1.22
 
 require (
+	github.com/davecgh/go-spew v1.1.1
 	github.com/joho/godotenv v1.5.1
 	github.com/spf13/cobra v1.8.1
 )
